@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8"/>
+<title>Şiir</title>
+<style>
+html {
+  font-family : sans-serif ;
+  background-color : gray ;
+  color : white 
+}
+</style>
+</head>
+<body>
+<center>
+<ins>İlim ilim bilmektir</ins> <br>
+İlim kendin bilmektir <br>
+Sen kendin bilmezsin <br>
+<u>Ya nice okumaktır</u><br> <br>
+<i><b>Yunus Emre</b></i>
+<hr>
+<h2>BİZDEN HABERLER</h2>
+<p>MESLEKİ EĞİTİMDE <strong>1000 OKUL İYİLEŞTİRME PROJESİ</strong> KAPSAMINDAKİ <mark>TÜM OKULLARIN</mark> YÖNETİCİLERİNE <b>BİLGİLENDİRME TOPLANTILARI</b> YAPILDI</p>
+<hr>
+<h2>Bilişim Terimleri</h2>
+<b>text-formatting language:</b> <em>metin biçimlendirme dili,</em> [07.01.28], Metnin ne şekilde biçimlendirileceğini belirtmek için tasarlanmış problem yönelimli dil. ÖRNEKLER : <i>HTML, nroff</i>
+<hr>
+<pre>
+Korkma , sönmez bu şafaklarda yüzen al sancak;
+Sönmeden yurdumun üstünde tüten en son ocak.
+O benim milletimin yıldızıdır, parlayacak;,
+O benimdir, o benim milletimindir ancak.
+
+		Çatma, kurban olayım çehreni ey nazlı hilal!
+		Kahraman ırkıma bir gül... ne bu şiddet bu celal?
+		Sana olmaz dökülen kanlarımız sonra helal,
+		Hakkıdır, hakk'a tapan milletimin istiklal
+</pre>
+<hr>
+Türkçesi Varken <br>
+<del>Logo</del> : belirtke <br>
+<del>Kampus</del> : yerleşke <br>
+<del>Vizyon</del> : görüş <br>
+<hr>
+H<sub>2</sub>O bileşiği hayatın, C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> bileşiği ise vücudun temel ihtiyaç maddelerinden biridir. <br> <hr>
+(x+y)<sup>2</sup>=x<sub>2</sub>+2xy+y<sub>2</sub>
+</center>
+</body>
+</html>

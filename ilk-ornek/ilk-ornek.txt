@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8"/>
+<title>TEST PAGE</title>
+<meta name="description" value="test page"/>
+<style>
+h1 {
+  color : aqua ;
+  font-family : Sans-serif 
+  }
+h2 {
+  color : red ;
+  font-family : Sans-serif 
+  }
+h3 {
+  color : green ;
+  font-family : Sans-serif 
+  }
+h4 {
+  color : pink ;
+  font-family : Sans-serif 
+  }
+h5 {
+  color : yellow ;
+  font-family : Sans-serif 
+  }
+h6 {
+  color : purple ;
+  font-family : Sans-serif 
+  }
+html {
+  background-color : gray
+  }
+b {
+  font-family : Sans-serif ;
+  color : white
+  }
+</style>
+</head>
+<body>
+
+<h1>TEST PAGE</h1>
+<h2>TEST PAGE</h2>
+<h3>TEST PAGE</h3>
+<h4>TEST PAGE</h4>
+<h5>TEST PAGE</h5>
+<h6>TEST PAGE</h6>
+<b>HELLO HTML</b> <br> <br>
+<i>İSMET AKTAR</i> <br> <br>
+<u>MTAL</u> <br> <br>
+<em>WEW</em> <br> <br>
+<mark>MARKED</mark> <br> <br>
+<small>SMALL</small> <br> <br>
+<big>BİG</big> <br> <br>
+<tt>TT</tt>
+</body>
+</html>

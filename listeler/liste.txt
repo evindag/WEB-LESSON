@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8"/>
+<title>Listeleme</title>
+<style>
+html {
+	background-color: gray;
+	font-family: sans-serif;
+	color: white;
+}
+</style>
+</head>
+<body>
+<h2>LİSTELEME ETİKETLERİ</h2>
+<hr>
+<ol>
+	<li>Vatanseverlik</li>
+	<li>Yardımlaşma</li>
+	<li>Sorumluluk</li>
+	<li>Merhamet</li>
+	<li>Dürüstlük</li>
+	<li>Hoşgörü</li>
+	<li>Saygı</li>
+	<li>Sevgi</li>
+</ol> <hr>
+<h2>SIRASIZ LİSTE</h2> <hr>
+<ul>
+	<li>Vatanseverlik</li>
+	<li>Yardımlaşma</li>
+	<li>Sorumluluk</li>
+	<li>Merhamet</li>
+	<li>Dürüstlük</li>
+	<li>Hoşgörü</li>
+	<li>Saygı</li>
+	<li>Sevgi</li>
+</ul> <hr>
+<h2>TANIM LİSTESİ</h2>
+<hr>
+<dl>
+	<dt>Ahlak</dt>
+	<dd>Bir toplumun en üst genel standartlarını içerir.</dd>
+	<dt>Etik</dt>
+	<dd>Toplumda belirli bir mesleğin, işin, kurumun veya grubun standartlarıdır.</dd>
+</dl> 
+<hr>
+<ol type="I">
+	<li>Vatanseverlik</li>
+	<li>Yardımlaşma</li>
+	<li>Sorumluluk</li>
+	<li>Merhamet</li>
+	<li>Dürüstlük</li>
+	<li>Hoşgörü</li>
+	<li>Saygı</li>
+	<li>Sevgi</li>
+</ol>
+<hr>
+<ol type="a">
+	<li>Vatanseverlik</li>
+	<li>Yardımlaşma</li>
+	<li>Sorumluluk</li>
+	<li>Merhamet</li>
+	<li>Dürüstlük</li>
+	<li>Hoşgörü</li>
+	<li>Saygı</li>
+	<li>Sevgi</li>
+</ol> 
+<hr>
+<ol type="a" start="4">
+	<li>Vatanseverlik</li>
+	<li>Yardımlaşma</li>
+	<li>Sorumluluk</li>
+	<li>Merhamet</li>
+	<li>Dürüstlük</li>
+	<li>Hoşgörü</li>
+	<li>Saygı</li>
+	<li>Sevgi</li>
+</ol> <hr>
+<ol type="I" start="5">
+	<li>Vatanseverlik</li>
+	<li>Yardımlaşma</li>
+	<li>Sorumluluk</li>
+	<li>Merhamet</li>
+	<li>Dürüstlük</li>
+	<li>Hoşgörü</li>
+	<li>Saygı</li>
+	<li>Sevgi</li>
+</ol> 
+<hr>
+<ul type="square">
+	<li>Vatanseverlik</li>
+	<li>Yardımlaşma</li>
+	<li>Sorumluluk</li>
+	<li>Merhamet</li>
+	<li>Dürüstlük</li>
+	<li>Hoşgörü</li>
+	<li>Saygı</li>
+	<li>Sevgi</li>
+</ul> 
+<hr>
+<ul type="circle">
+	<li>Vatanseverlik</li>
+	<li>Yardımlaşma</li>
+	<li>Sorumluluk</li>
+	<li>Merhamet</li>
+	<li>Dürüstlük</li>
+	<li>Hoşgörü</li>
+	<li>Saygı</li>
+	<li>Sevgi</li>
+</ul>
+</body>
+</html>

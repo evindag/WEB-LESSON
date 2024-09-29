@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>GENÇLÝÐE HÝTABE</title>
+<style>
+html {
+  font-family : sans-serif
+  }
+</style>
+</head>
+<body>
+<p><strong>ATATÜRK’ÜN GENÇLÝÐE HÝTABESÝ</strong></p><p><b> Ey Türk gençliði! </
+b><ins>Birinci vazifen;</ins> <br> Türk istiklalini, <br> Türk cumhuriyetini, <u> ilelebet
+muhafaza ve müdafaa etmektir. </u></p><p><mark>Mevcudiyetinin ve istikbalinin yegâne
+temeli budur. </mark> Bu temel, senin en kýymetli hazinendir. Ýstikbalde dahi seni bu
+hazineden mahrum etmek isteyecek dâhilî ve haricî bedhahlarýn olacaktýr. Bir gün, istiklal
+ve cumhuriyeti müdafaa mecburiyetine düþersen, vazifeye atýlmak için içinde bulunacaðýn
+vaziyetin imkân ve þeraitini düþünmeyeceksin. Bu imkân ve þerait, çok namüsait bir
+mahiyette tezahür edebilir. Ýstiklal ve cumhuriyetine kastedecek düþmanlar, bütün dünyada
+emsali görülmemiþ bir galibiyetin mümessili olabilirler. Cebren ve hile ile aziz vatanýn bütün kaleleri zapt edilmiþ, bütün tersanelerine girilmiþ, bütün ordularý daðýtýlmýþ ve
+memleketin her köþesi bilfiil iþgal edilmiþ olabilir. Bütün bu þeraitten daha elim ve daha
+vahim olmak üzere, memleketin dâhilinde iktidara sahip olanlar, gaflet ve dalalet ve hatta
+hýyanet içinde bulunabilirler. Hatta bu iktidar sahipleri, þahsi menfaatlerini müstevlilerin
+siyasi emelleriyle tevhit edebilirler. Millet, fakruzaruret içinde harap ve bitap düþmüþ
+olabilir. </p> <p> <b> Ey Türk istikbalinin evladý! </b> <em> Ýþte, bu ahval ve þerait içinde
+dahi vazifen, Türk istiklal ve cumhuriyetini kurtarmaktýr. Muhtaç olduðun kudret, damarlarýndaki
+asil kanda mevcuttur. </em> </p><p><b>Mustafa Kemal Atatürk<b></p><small>
+20 Ekim 1927 </small></body>
+</html>
