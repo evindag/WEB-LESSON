@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablo Ornekleri</title>
+</head>
+<body>
+<table border="3" cellpadding="30"> <!--kenar kalınlığı ve hücreler arası boşluk miktarı-->
+<tr>
+ <th rowspan="3"> .. </th> <!--yukarıdan aşağıya üç hücreyi birleştirir -->
+ <th colspan="2"> .. </th> <!--yatay olarak iki hücreyi birleştirir -->
+ </tr>
+ <tr> <!-- Tablo satırlarını oluşturur.-->
+ <td> .. </td> <!-- Tablo sütunlarını oluşturur.-->
+ <td> .. </td>
+ </tr>
+ <tr>
+ <td> .. </td>
+ <td> .. </td>
+ </tr>
+</table>
+<hr/>
+<table border="1" cellpadding="30">
+ <tr>
+ <th> Hücre 1 </th>
+ <th rowspan="2"> Hücre 2</th>
+ <th> Hücre 3 </th>
+ </tr>
+ <tr>
+ <td> Hücre 4 </td>
+ <td> Hücre 5 </td>
+ </tr>
+</table>
+<hr/>
+<table border="1" cellpadding="30">
+ <tr>
+ <th> Hücre 1 </th>
+ <th colspan="2"> Hücre 2</th>
+ </tr>
+ <tr>
+ <td> Hücre 4 </td>
+ <td> Hücre 5 </td>
+ <td> Hücre 6 </td>
+ </tr>
+</table>
+<hr/>
+<table border="1" cellpadding="30">
+ <caption><b>Yazılı Notları</b></caption>
+ <thead><!--<th> dâhil tüm tablo başlık bölümünü kapsar. -->
+ <tr>
+ <th>İsim</th>
+ <th>Not</th>
+ </tr>
+ </thead>
+ <tbody> <!--Tablonun <tr>, <td> asıl içeriklerinin şekillendiği bölümdür.-->
+ <tr> <!-- Tablo satırlarını oluşturur.-->
+ <td>Halide Edip</td> <!-- Tablo sütunlarını oluşturur.-->
+ <td>100</td>
+ </tr>
+ <tr>
+ <td>Sabiha</td>
+ <td>90</td>
+ </tr>
+ <tr>
+ <td>Gökçen</td>
+ <td>80</td>
+ </tr>
+ </tbody>
+<tfoot> <!--Tablonun alt kısmında yer alan son satırıdır. -->
+ <tr>
+ <td>Ortalama</td>
+ <td>95</td>
+ </tr>
+ </tfoot> 
+</table>
+</body>
+</html>
+
+

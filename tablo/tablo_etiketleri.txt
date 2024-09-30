@@ -1,0 +1,55 @@
+Açıklamalar:
+<!DOCTYPE html>: Bu, HTML5 belgesi olduğunu belirtir. Tarayıcıya, belgenin HTML5 standardına uygun olduğunu söyler.
+
+<html lang="tr">: html etiketi sayfanın köküdür ve dilini belirtir. Burada lang="tr" ile sayfanın Türkçe olduğunu gösteriyoruz.
+
+<head>: Bu bölüm, sayfa hakkında meta veriler içerir. Tarayıcıya sayfanın nasıl işleneceği hakkında bilgi verir.
+
+<meta charset="UTF-8">: Karakter setini belirtir. UTF-8, dünya genelindeki tüm karakterleri destekleyen bir karakter kodlamasıdır.
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">: Sayfanın mobil cihazlarda nasıl görüntüleneceğini tanımlar. Bu özellik, sayfanın genişliğini ekranın genişliğine ayarlamak ve cihaz boyutlarına uygun bir görünüm sağlamak için kullanılır.
+
+<title>Tablo Örneği </title>: Bu etiket, tarayıcı sekmesinde görünen başlıktır. Kullanıcının sayfa başlığını anlamasına ve sayfanın amacını tanımlamaya yardımcı olur.
+
+<body>: Sayfanın içeriği bu bölümde yer alır. Kullanıcılar tarayıcıda bu kısmı görürler.
+
+<h1>Satış Raporu</h1>: h1 başlık etiketidir. Bu etiket en önemli başlığı temsil eder. Başlık büyük ve kalın yazı tipinde görüntülenir. "Satış Raporu" burada sayfanın ana başlığıdır.
+
+<table>: HTML tablosunu oluşturmak için kullanılır. Tablo, satırlar ve sütunlar şeklinde düzenlenmiş verileri göstermek için kullanılır.
+
+border="1": Hücrelerin etrafında kenarlık oluşturur. 1 değeri kenarlık kalınlığını belirler.
+
+cellpadding="10": Hücrelerin içinde metin ile hücre kenarları arasındaki boşluğu tanımlar. Buradaki 10, her hücre içindeki boşluğun 10 piksel olduğu anlamına gelir.
+
+cellspacing="0": Hücreler arasındaki boşluğu tanımlar. 0 olması hücreler arasında boşluk bırakılmadığı anlamına gelir.
+
+style="width: 80%; margin: 0 auto;": Bu satırda, tabloya genişlik ve hizalama özellikleri verilmiştir. width: 80%; tablonun sayfanın genişliğinin %80'ini kaplamasını sağlar. margin: 0 auto; ise tabloyu yatay olarak ortalar.
+
+<thead>: Tablonun başlık bölümünü temsil eder. Başlık satırı, sütunların üstünde gösterilir ve genellikle tablo başlıklarını içerir.
+
+<tr>: Tablo satırını temsil eder. tr etiketi her bir satırı oluşturur. Bu satırda tablo başlıklarını içeriyoruz.
+
+bgcolor="#007BFF": Bu, satırın arka plan rengini belirler. Burada "#007BFF" mavi bir renktir.
+
+style="color: white;": Satırdaki metinlerin rengini beyaz yapar.
+
+<th>: Tablo başlığı hücresini tanımlar. th hücreleri genellikle kalın yazı tipinde ve ortalanmış bir metin içerir. Burada, "Ürün Adı", "Kategori", "Adet", "Fiyat", "Toplam" gibi tablo başlıkları tanımlanıyor.
+
+<tbody>: Tablonun gövdesini tanımlar. Bu bölüm, tablo verilerini içerir. thead tablo başlıkları için kullanılırken, tbody gerçek veri satırları için kullanılır.
+
+<tr>: Her bir veri satırını tanımlar. Bu satırda, ürün bilgileri ("Akıllı Telefon", "Elektronik", "10", "₺4000", "₺40,000") tabloya eklenmiştir.
+
+<td>: Tablo hücresi (data) anlamına gelir. td, tabloda veri içeren hücreleri belirtir. Her td hücresi, tablo satırındaki bir hücreyi temsil eder. Örneğin, "Akıllı Telefon", "Elektronik", "10", "₺4000" gibi her biri bir hücredir.
+
+bgcolor="#28a745": Bu, belirli bir hücreye arka plan rengi verir. "#28a745", yeşil bir renktir.
+style="color: white;": Hücredeki metnin rengini beyaz yapar.
+
+Tablo Nedir? Tablo, verileri satır ve sütunlar şeklinde düzenlemek için kullanılan bir yapıdır. Her satır (<tr>) ve her hücre (<td>, <th>) tabloyu oluşturur. Başlık hücreleri (<th>) genellikle verinin kategorisini temsil ederken, veri hücreleri (<td>) o kategorideki bilgiyi tutar.
+
+Tablo Elemanları:
+<table>: Tüm tabloyu kapsar.
+<thead>: Tablonun başlıklarını içerir.
+<tbody>: Tablo verilerini içerir.
+<tr>: Tablo satırlarını belirtir.
+<th>: Tablo başlığı hücrelerini temsil eder.
+<td>: Tablo verisi hücresini tanımlar.

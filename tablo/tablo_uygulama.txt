@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Öğrenci Notları Tablosu</title>
+</head>
+<body>
+
+    <h1>Öğrenci Notları</h1>
+
+    <table border="1" cellpadding="10" cellspacing="0" style="width: 90%; margin: 0 auto;">
+        <thead>
+            <tr bgcolor="#6c757d" style="color: white;">
+                <th>Sıra No</th>
+                <th>Adı</th>
+                <th>Soyadı</th>
+                <th>Matematik</th>
+                <th>Fizik</th>
+                <th>Kimya</th>
+                <th>Biyoloji</th>
+                <th>Ortalama</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Ali</td>
+                <td>Koç</td>
+                <td>85</td>
+                <td>90</td>
+                <td>78</td>
+                <td>88</td>
+                <td>85.25</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Ayşe</td>
+                <td>Yıldız</td>
+                <td>95</td>
+                <td>89</td>
+                <td>92</td>
+                <td>94</td>
+                <td>92.5</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Burak</td>
+                <td>Demir</td>
+                <td>76</td>
+                <td>85</td>
+                <td>82</td>
+                <td>80</td>
+                <td>80.75</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Cem</td>
+                <td>Akın</td>
+                <td>90</td>
+                <td>88</td>
+                <td>84</td>
+                <td>91</td>
+                <td>88.25</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Derya</td>
+                <td>Sever</td>
+                <td>70</td>
+                <td>75</td>
+                <td>80</td>
+                <td>85</td>
+                <td>77.5</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
