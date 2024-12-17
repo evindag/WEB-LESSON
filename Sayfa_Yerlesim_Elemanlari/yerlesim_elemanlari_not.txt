@@ -1,0 +1,32 @@
+1. <div> Etiketi (Bölümleme)
+Ne işe yarar: Blok düzeyinde bir elemandır ve içerikleri gruplayıp düzenlemek için kullanılır. Anlamsal bir değeri yoktur, sadece içerikleri mantıksal olarak ayırmak için kullanılır.
+
+2. <span> Etiketi (Satır İçi Grup)
+Ne işe yarar: Satır içi bir elemandır. Bir metin içinde küçük parçaları seçip biçimlendirmek için kullanılır. Tıpkı <div> gibi, anlamsal bir değeri yoktur.
+
+3. HTML5 Tasarım Şablonu Etiketleri
+Bu etiketler, sayfayı daha anlamlı ve yapılandırılmış hale getirmek için kullanılır. Arama motorları ve ekran okuyucular gibi araçların sayfa içeriğini daha iyi anlamasına yardımcı olur.
+
+3.1. <header> Etiketi
+Ne işe yarar: Sayfanın veya bir bölümün başlık kısmını tanımlar. Genellikle menüler, başlıklar, logolar gibi içerikler barındırır.
+
+<nav> Etiketi
+Ne işe yarar: Sayfanın ana navigasyon (menü) bağlantılarını tanımlar.
+
+<section> Etiketi
+Ne işe yarar: Sayfanın veya uygulamanın anlamlı bölümlerini tanımlar. Her bölüm bağımsız bir anlam taşımalıdır.
+
+<article> Etiketi
+Ne işe yarar: Bağımsız ve kendi içinde bütün olan içerikleri tanımlar. Bir blog yazısı, haber makalesi veya forum gönderisi gibi içerikler için kullanılır.
+
+<footer> Etiketi
+Ne işe yarar: Sayfa veya bir bölümün alt bilgi kısmını tanımlar. Genellikle telif hakkı bilgileri, bağlantılar veya iletişim bilgileri içerir.
+
+<aside> Etiketi
+Ne işe yarar: Ana içeriğe ek bilgi veya yan içerik sunar. Yan menüler, yan sütunlar veya reklamlar için kullanılır.
+
+<figure> ve <figcaption> Etiketleri
+Ne işe yarar: <figure>, bir görüntü, grafik veya diyagram gibi içeriklerin anlamlı gruplarını tanımlar. <figcaption> ise bu içeriğin başlığını tanımlar.
+
+<hgroup> Etiketi
+Ne işe yarar: Bir başlık grubunu tanımlar. Birden fazla başlık elemanını bir araya getirir, örneğin bir ana başlık (<h1>) ve alt başlık (<h2>) kombinasyonu için kullanılır.

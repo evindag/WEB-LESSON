@@ -1,0 +1,36 @@
+
+1. Static(Varsayılan konumlandırma)
+Elementlerin varsayılan konumlandırmasıdır.
+position: static;
+
+2. Relative (Göreceli konumlandırma)
+Element, bulunduğu yere göre hareket ettirilir.
+top, right, left, bottom özellikleri ile kendi normal 
+pozisyonuna göre kaydırılabilir.
+position:relative;
+top:20px; //yukarıdan 20px aşağı iner.
+left:10px; //sola 10px kayar.
+
+3. Absolute (Mutlak konumlandırma)
+Element, en yakın relative veya absolute konumlu üst 
+elemente göre konumlandırılır. Eğer böyle bir eleman yoksa
+body elemanına göre yerleşir.
+top,right,left,bottom ile kesin konumlandırma yapılır.
+position:absolute;
+top:50px; //Sayfanın üst kısmından 50px aşağı iner.
+right:20px; //sağ kenardan 20px uzaklaşır.
+
+4. fixed (Sabit konumlandırma)
+Element, sayfayı kaydırırken bile (scroll) ekranın aynı 
+yerinde kalır.
+(Başlık çubuğu veya sabit bir menü için kullanılır.)
+position:fixed;
+top:0;
+left:0;
+
+5.Sticky (Yapışkan konumlandırma)
+Element, belirli bir mesafeye kadar normal akışta kalır,
+ardından sayfa kaydırıldıkça sabitlenir.
+position:sticky;
+top: 10px; //Üstten 10px uzaklıkta yapışır.
+

@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sayfa İçi Bağlantılar</title>
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+        }
+
+        nav {
+            background-color: #34495e;
+            padding: 10px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #f39c12;
+        }
+
+        section {
+            padding: 50px 20px;
+            min-height: 100vh;
+            border-bottom: 1px solid #ccc;
+        }
+
+        
+        #bolum1 {
+            background-color: #ecf0f1;
+        }
+
+        #bolum2 {
+            background-color: #f8f9fa;
+        }
+
+        #bolum3 {
+            background-color: #dff9fb;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #34495e;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <!-- Sayfa Başlığı -->
+    <h1>Sayfa İçi Bağlantılar Örneği</h1>
+
+    <!-- Navigasyon Menüsü -->
+    <nav>
+        <a href="#bolum1">Bölüm 1</a>
+        <a href="#bolum2">Bölüm 2</a>
+        <a href="#bolum3">Bölüm 3</a>
+        <a href="#footer">İletişim</a>
+    </nav>
+
+    <!-- Sayfa Bölümleri -->
+    <section id="bolum1">
+        <h2>Bölüm 1: Giriş</h2>
+        <p>
+            Bu, sayfanın ilk bölümüdür. Burada sayfa içi bağlantıların nasıl çalıştığını görebilirsiniz. 
+            Navigasyon menüsünden diğer bölümlere geçiş yapabilirsiniz.
+        </p>
+    </section>
+
+    <section id="bolum2">
+        <h2>Bölüm 2: İçerik</h2>
+        <p>
+            Bu bölümde detaylı bilgiler yer alıyor. Sayfa içi bağlantılar sayesinde bu bölüme hızlı bir şekilde erişebilirsiniz.
+        </p>
+    </section>
+
+    <section id="bolum3">
+        <h2>Bölüm 3: Sonuç</h2>
+        <p>
+            Üçüncü bölüme hoş geldiniz! Burada sayfanın tamamını gözden geçirdik.
+        </p>
+    </section>
+
+    <!-- Footer Bölümü -->
+    <footer id="footer">
+        <p>İletişim: info@ornek.com</p>
+    </footer>
+</body>
+</html>

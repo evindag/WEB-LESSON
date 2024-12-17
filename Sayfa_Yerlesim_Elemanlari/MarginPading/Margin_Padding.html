@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Padding ve Margin Örneği</title>
+    <style>
+        /* İlk kutu (box1) */
+        .box1 {
+            width: 200px;
+            height: 100px;
+            background-color: lightcoral;
+            padding: 90px; /* İçeriğe 90px boşluk */
+            margin: 150px; /* Diğer öğelerden 150px uzaklık */
+            border: 2px solid red;
+        }
+
+        /* İkinci kutu (box2) */
+        .box2 {
+            width: 150px;
+            height: 80px;
+            background-color: lightblue;
+            padding: 85px; /* İçeriğe 85px boşluk */
+            margin: 120px; /* Diğer öğelerden 120px uzaklık */
+            border: 12px solid blue;
+        }
+    </style>
+</head>
+<body>
+<p><b>Padding</b> kutunun iç kısmında değişiklik yapar 
+(kutunun içinde yer alan içeriği daha geniş veya dar yapar).</p>
+<p><strong>Margin</strong> kutunun dış kısmında değişiklik
+yapar (kutunun diğer öğelerle olan ilişkisini belirler 
+ve onları daha uzak veya yakın yapar).</p>
+<div class="box1">
+    Bu kutunun padding ve margin değerleri var.
+</div>
+
+<div class="box2">
+    Bu kutu da padding ve margin içeriyor.
+</div>
+</body>
+</html>

@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basit HTML ve CSS Sayfası</title>
+    <style>
+        /* Sayfa genel stili */
+        body {
+            font-family: Arial, sans-serif; /* Yazı tipi */
+            background-color: #f0f0f0; /* Sayfa arka plan rengi */
+            margin: 0;
+            padding: 0;
+            color: #333; /* Yazı rengi */
+        }
+
+        /* Başlık stili */
+        header {
+            background-color: #4CAF50; /* Başlık arka plan rengi */
+            color: white; /* Başlık yazı rengi */
+            padding: 20px;
+            text-align: center; /* Başlık metnini ortalar */
+        }
+
+        /* Menü stili */
+        nav {
+            background-color: #333; /* Menü arka plan rengi */
+            overflow: hidden;
+        }
+
+        nav a {
+            float: left; /* Menü elemanlarını sola hizalar */
+            display: block;
+            color: white; /* Menü yazı rengi */
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none; /* Alt çizgi yok */
+        }
+
+        nav a:hover {
+            background-color: #ddd; /* Menü elemanı üzerine gelindiğinde arka plan rengi */
+            color: black; /* Yazı rengi */
+        }
+
+        /* İçerik kısmı */
+        .content {
+            display: flex;
+            padding: 20px;
+        }
+
+        .main {
+            flex: 3; /* Ana içerik alanı */
+            padding: 20px;
+            background-color: white;
+            margin-right: 20px; /* Sağ tarafta boşluk bırakır */
+        }
+
+        .sidebar {
+            flex: 1; /* Yan panel alanı */
+            background-color: #f9f9f9;
+            padding: 20px;
+        }
+
+        /* Alt bilgi (footer) stili */
+        footer {
+            background-color: #333; /* Alt bilgi arka plan rengi */
+            color: white; /* Alt bilgi yazı rengi */
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Sayfa başlığı -->
+    <header>
+        <h1>Basit HTML ve CSS Sayfası</h1>
+    </header>
+
+    <!-- Menü -->
+    <nav>
+        <a href="#">Ana Sayfa</a>
+        <a href="hakkimizda.html">Hakkımızda</a>
+        <a href="#">İletişim</a>
+    </nav>
+
+    <!-- İçerik kısmı (Ana içerik ve yan panel) -->
+    <div class="content">
+        <!-- Ana içerik -->
+        <div class="main">
+            <h2>Ana İçerik Başlığı</h2>
+            <p>Bu, sayfanın ana içerik alanıdır. Buraya metin, resimler veya diğer öğeler eklenebilir. Bu alan, sayfa genişliğine göre dinamik olarak genişleyebilir.</p>
+            <p>HTML ile sayfa yapısını oluştururken, CSS ile görsel düzenlemeleri yaparak daha şık hale getirebilirsiniz.</p>
+        </div>
+
+        <!-- Yan panel (Sidebar) -->
+        <div class="sidebar">
+            <h3>Yan Panel</h3>
+            <p>Bu bölümde, yan paneldeki ek bilgiler bulunur. Burada farklı içerikler gösterilebilir, örneğin, menüler veya duyurular.</p>
+        </div>
+    </div>
+
+    <!-- Alt bilgi -->
+    <footer>
+        <p>&copy; 2024 Örnek Şirketi</p>
+    </footer>
+
+</body>
+</html>

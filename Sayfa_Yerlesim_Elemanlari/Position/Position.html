@@ -1,0 +1,118 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position Örnek</title>
+    <style>
+        /* Sayfa genel ayarları */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* static */
+        .static-box {
+            position: static;
+            background: lightblue;
+            padding: 20px;
+            border: 1px solid blue;
+            margin: 10px;
+        }
+
+        /* relative */
+        .relative-box {
+            position: relative;
+            background: lightgreen;
+            padding: 20px;
+            border: 1px solid green;
+            margin: 10px;
+            top: 20px; /* Doğal yerinden 20px aşağı taşır */
+            left: 20px; /* Doğal yerinden 20px sağa taşır */
+        }
+
+        /* absolute */
+        .absolute-container {
+            position: relative; /* Absolute eleman için referans olur */
+            background: lightgray;
+            padding: 20px;
+            border: 1px solid gray;
+            margin: 10px;
+        }
+
+        .absolute-box {
+            position: absolute;
+            background: yellow;
+            padding: 10px;
+            border: 1px solid orange;
+            top: 10px; /* Relative kutuya göre 10px aşağı */
+            left: 10px; /* Relative kutuya göre 10px sağa */
+        }
+
+        /* fixed */
+        .fixed-box {
+            position: fixed;
+            background: lightcoral;
+            color: white;
+            padding: 10px;
+            border: 1px solid red;
+            top: 0;
+            right: 0;
+            z-index: 1000; /* Üstte görünmesini sağlar */
+        }
+
+        /* sticky */
+        .sticky-box {
+            position: sticky;
+            background: lightpink;
+            padding: 20px;
+            border: 1px solid hotpink;
+            top: 10px; /* Kaydırıldığında 10px aşağıda sabitlenir */
+            margin: 10px;
+        }
+
+        /* Uzun içerik */
+        .long-content {
+            height: 1000px; /* Sticky elemanın etkisini göstermek için uzun içerik */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- static -->
+    <div class="static-box">
+        Bu bir <strong>static</strong> elemandır. Doğal akışa göre konumlanır.
+    </div>
+
+    <!-- relative -->
+    <div class="relative-box">
+        Bu bir <strong>relative</strong> elemandır. 
+        Doğal konumundan 20px aşağı ve sağa taşınmıştır.
+    </div>
+
+    <!-- absolute -->
+    <div class="absolute-container">
+        Bu bir <strong>relative</strong> kapsayıcıdır.
+        <div class="absolute-box">
+            Bu bir <strong>absolute</strong> elemandır.
+            Kapsayıcıya göre konumlanmıştır.
+        </div>
+    </div>
+
+    <!-- fixed -->
+    <div class="fixed-box">
+        Bu bir <strong>fixed</strong> elemandır. Sayfayı kaydırırken hep burada kalır.
+    </div>
+
+    <!-- sticky -->
+    <div class="sticky-box">
+        Bu bir <strong>sticky</strong> elemandır. Kaydırıldığında 10px yukarıda sabitlenir.
+    </div>
+
+    <!-- Uzun içerik -->
+    <div class="long-content"></div>
+
+</body>
+</html>

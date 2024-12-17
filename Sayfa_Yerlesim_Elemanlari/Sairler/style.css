@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    max-width: 800px;
+    width: 100%;
+}
+
+.beyit {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.beyit p {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.shair-image img {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.yunus-emre {
+    background-color: #e0f7fa; /* Yunus Emre için arka plan rengi */
+}
+
+.fuzuli {
+    background-color: #ffe0b2; /* Fuzuli için arka plan rengi */
+}
+
+.nedim {
+    background-color: #e1bee7; /* Nedim için arka plan rengi */
+}
+
+.beyit p::first-letter {
+    font-size: 2em; /* İlk harfi büyük yap */
+    font-weight: bold; /* İlk harfi kalın yap */
+}

@@ -1,0 +1,61 @@
+/* Genel Ayarlar */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Sayfa arka plan rengi */
+    color: #333; /* Yazı rengi */
+}
+
+/* Başlık (Header) */
+header {
+    background: #0073e6; /* Mavi arka plan */
+    color: white; /* Yazı rengi beyaz */
+    text-align: center; /* Ortala */
+    padding: 20px 0; /* Üst ve alt boşluk */
+}
+
+/* Menü (Navigation) */
+nav ul {
+    list-style: none; /* Liste işaretlerini kaldır */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Esnek düzen (yatay sıralama) */
+    justify-content: center; /* Ortala */
+    background: #333; /* Menü arka plan rengi */
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none; /* Alt çizgi kaldır */
+    color: white;
+    padding: 10px 15px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background: #0073e6; /* Hover (üzerine gelince) arka plan */
+    border-radius: 5px; /* Köşeleri yuvarlat */
+}
+
+/* Bölüm (Section) */
+section {
+    padding: 20px;
+    background: white;
+    margin: 20px;
+    border-radius: 10px; /* Köşeleri yuvarlat */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Hafif gölge */
+}
+
+/* Alt Bilgi (Footer) */
+footer {
+    text-align: center;
+    padding: 100px;
+    background: #333;
+    color: white;
+    margin-top: 20px;
+}
