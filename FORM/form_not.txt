@@ -1,0 +1,52 @@
+HTML Formu (HTML Form), kullanıcıdan veri almak ve bu verileri bir web sunucusuna göndermek için kullanılan HTML öğesidir.Bu veriler genellikle bir veritabanına kaydedilir veya başka bir işlem için kullanılır. 
+
+<form>: Formu başlatan etikettir. 
+<input>: Kullanıcıdan veri almak için kullanılan form elemanıdır. Tipi text, email, radio, checkbox gibi farklı türlerde olabilir.
+<label>: Etiket etiketi, kullanıcıya form elemanlarının ne olduğunu anlatmak için kullanılır.
+<action>:action özelliği, formun verilerinin gönderileceği URL'yi belirtir.
+
+ method="get | post" : GET ve POST her ikisi de veri göndermek için kullanılır, ancak ne zaman ve nasıl veri gönderileceği konusunda bazı önemli farklar vardır.
+Get : Veri Gönderme: GET yöntemi, form verilerini URL üzerinden gönderir. Bu veriler, URL'ye eklenir ve tarayıcıda görünür.  URL'deki parametreler açıkça göründüğü için gizli veya hassas bilgiler için GET önerilmez.
+
+Örneğin:example.com/form?ad=Ali&email=ali%40mail.com
+Bu örnekte, ad ve email parametreleri URL'ye eklenmiştir.
+
+Veri çekme (read-only): GET genellikle veri almak veya görüntülemek amacıyla kullanılır. Sunucudan veri talep ederken (örneğin, arama sonuçlarını almak veya bir listeyi görüntülemek) GET yöntemi uygundur.
+
+Post : POST yöntemi, form verilerini HTTP isteği içinde gizli olarak gönderir. Veriler, URL'de görünmez ve HTTP gövdesinde taşınır. Bu, POST'u gizlilik gerektiren veri iletimi için ideal hale getirir.Şifreler ve diğer hassas veriler için POST tercih edilir.
+
+ POST, sunucuya veri gönderirken, genellikle veri oluşturma veya güncelleme işlemleri için kullanılır. Örneğin, kullanıcı kaydı, yorum gönderme veya form doldurma gibi işlemlerde kullanılır.
+
+POST ile çok büyük veri, dosyalar veya form verileri gönderilebilir. Get
+e kıyasla URL uzunluğu sınırlaması yoktur.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Password: parola yazmak için kullanılır. Metin kutusuna yazılan karakterler daire karakteri ve
+ya yıldız (*) karakteri ile gösterilir.
+
+Checkbox: onay kutusu oluşturmak için kullanılır. Çoklu seçim yapmaya izin verir.
+
+Radio: radyo düğmeleri oluşturmak için kullanılır. Onay kutularından farklı olarak çoklu seçim 
+yapılamaz.
+
+name : form verilerinin sunucuya gönderildiğinde hangi anahtar altında taşınacağını belirler. 
+
+
+
+
+
+
+
+
