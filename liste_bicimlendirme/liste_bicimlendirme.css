@@ -1,0 +1,25 @@
+ul{
+    list-style-type:upper-roman;
+}
+li{
+    width: 300px;
+    margin:5px;
+    padding: 5px;
+    font-family:Arial, Helvetica, sans-serif;
+    border-style:solid;
+    border-color: blue;
+    background-color: cadetblue;
+}
+h1{
+    margin: 5px;
+    padding: 5px;
+    border-style: inset;
+    border-color: aqua;
+    background-color: aquamarine;
+    display:inline;
+}
+a{
+    border:sienna dashed 3px;
+    font-size: 100px;
+    display: block;
+}
