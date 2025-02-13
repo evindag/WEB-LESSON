@@ -1,0 +1,146 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 10;
+    padding: 10;
+    background: linear-gradient(135deg, blue, white);
+    color: #333;
+}
+
+.navbar {
+    background-color: gray;
+    padding: 20px 0;
+    text-align: center;
+    vertical-align: middle;
+}
+.navbar a {
+    color: black;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 20px;
+}
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.hero-section {
+    background-color: violet;
+    text-align: center;
+    padding: 70px 30px;
+}
+.hero-section h1 {
+    font-size: 3.5rem;
+    color: black;
+}
+.hero-section p {
+    font-size: 1.10rem;
+    color: black;
+}
+.hero-section a {
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 10px;
+    font-size: 1.15rem;
+    margin-top: 35px;
+    display: inline-block;
+}
+.hero-section a:hover {
+    background-color: cyan;
+}
+
+.about-section {
+    padding: 30px 50px;
+    text-align: center;
+    background-color: gray;
+}
+.about-section h2 {
+    font-size: 2.5rem;
+    color: white;
+}
+.about-section p {
+    font-size: 1.25rem;
+    color: white;
+    max-width: 800px;
+    margin: 30px auto;
+}
+/* */
+.services-section {
+    background-color: #gray;
+    padding: 70px 40px;
+    text-align: center;
+}
+.services-section h2 {
+    font-size: 2.5rem;
+    color: white;
+}
+.services-section .service-card {
+    display: inline-block;
+    width: 30%;
+    margin: 20px 1.5%;
+    background: linear-gradient(135deg, purple, blue);
+    border-radius: 8px;
+    padding: 25px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+.services-section .service-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+.services-section .service-card h5 {
+    font-size: 1.5rem;
+    color: #080808;
+    margin-top: 30px;
+}
+.services-section .service-card p {
+    color: #000000;
+    font-size: 1rem;
+}
+
+.contact-section {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: gray;
+}
+.contact-section h2 {
+    font-size: 2.5rem;
+    color: #333;
+}
+.contact-section form input,
+.contact-section form textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+}
+.contact-section form button {
+    padding: 12px 25px;
+    background-color: #4e73df;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+}
+.contact-section form button:hover {
+    background-color: #3e63d7;
+}
+
+
+.footer {
+    background-color: #4e73df;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+#contact{
+    background-color: rgba(84, 80, 80, 0.578);
+}
+
+.ikon {
+    width: 50px;  
+    height: 50px;
+    vertical-align: middle; 
+    margin-right: 10px; 

@@ -1,0 +1,184 @@
+/* Genel Stil */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #6e7dff, #d3c9ff);
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #4e73df;
+    padding: 15px 0;
+    text-align: center;
+    vertical-align: middle;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero-section {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 80px 20px;
+}
+.hero-section h1 {
+    font-size: 3rem;
+    color: #333;
+}
+.hero-section p {
+    font-size: 1.25rem;
+    color: #555;
+}
+.hero-section a {
+    background-color: #4e73df;
+    color: white;
+    text-decoration: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    margin-top: 20px;
+    display: inline-block;
+}
+.hero-section a:hover {
+    background-color: #3e63d7;
+}
+
+/* Hakkında Bölümü */
+.about-section {
+    padding: 10px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+.about-section h2 {
+    font-size: 2.5rem;
+    color: #333;
+}
+.about-section p {
+    font-size: 1.25rem;
+    color: #555;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+/* Hizmetler Bölümü */
+.services-section {
+    background-color: #f8f9fa;
+    padding: 60px 20px;
+    text-align: center;
+}
+.services-section h2 {
+    font-size: 2.5rem;
+    color: #3a3a3a;
+}
+.services-section .service-card {
+    display: inline-block;
+    width: 30%;
+    margin: 20px 1.5%;
+    background: linear-gradient(135deg, #6e7dff, #d3c9ff);
+    border-radius: 8px;
+    padding: 25px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+.services-section .service-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+.services-section .service-card h5 {
+    font-size: 1.5rem;
+    color: #080808;
+    margin-top: 20px;
+}
+.services-section .service-card p {
+    color: #000000;
+    font-size: 1rem;
+}
+
+/* İletişim Formu */
+.contact-section {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #000000;
+}
+.contact-section h2 {
+    font-size: 2.5rem;
+    color: #333;
+}
+.contact-section form input,
+.contact-section form textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+}
+.contact-section form button {
+    padding: 12px 25px;
+    background-color: #037c13;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+}
+.contact-section form button:hover {
+    background-color: #3e63d7;
+}
+
+/* Footer */
+.footer {
+    background-color: #4e73df;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+#contact{
+    background-color: rgba(84, 80, 80, 0.578);
+}
+/* Navbar için ikon düzeni */
+.ikon {
+    width: 20px;  /* İkonun genişliği */
+    height: 20px; /* İkonun yüksekliği */
+    vertical-align: middle; /* İkonun metinle hizalanması */
+    margin-right: 8px; /* İkon ile metin arasındaki boşluk */
+}
+.notification {
+    display: none; /* Başlangıçta gizli */
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    font-size: 16px;
+    z-index: 1000;
+}
+
+/* Bildirimi Göster */
+:target.notification {
+    display: block;
+}
+
+/* Kapatma Butonu */
+.close-btn {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 15px;
+    cursor: pointer;
+
+}
+a{
+    text-decoration: none;
+    color:white;
+}

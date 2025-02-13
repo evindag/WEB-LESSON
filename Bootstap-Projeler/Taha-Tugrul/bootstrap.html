@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Site</title>
+    <link rel="stylesheet" href="bootstrap.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <a href="#home"><img src="home.png" class="ikon">Anasayfa</a>
+        <a href="#about"><img src="information-button.png" class="ikon"> Hakkında</a>
+        <a href="#services"><img src="support1.png" class="ikon"> Hizmetler</a>
+        <a href="#contact"> <img src="support.png" class="ikon">İletişim</a>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <h1>Hoş Geldiniz!</h1>
+        <p>Benim Hakkımda Bilgi Alabildiğiniz Siteme Hoş geldiniz!</p>
+        <a href="#services">Hobilerim</a>
+    </section>
+
+    <!-- Hakkında Bölümü -->
+    <section id="about" class="about-section">
+        <h2>Hakkında</h2>
+        <p>Taha Ünlü, 30 Ocak 2009 tarihinde doğmuş, şu anda 15 yaşında olup, 11. sınıfa giden bir genç yetenektir. Bilişim bölümünde okur. En sevdiği sporlar <strong>Masa Tenisi, Futbol, Koşu</strong> vb. En büyük hedefi yurt dışında yazılımcı olmaktır.</p>
+    </section>
+
+    <!-- Hizmetler Bölümü -->
+    <section id="services" class="services-section">
+        <h2>Hobilerim</h2>
+        <div class="service-card">
+            
+            <h5>Oyun Oynamak</h5>
+            <p>Bilgisayar oyunları</p>
+        </div>
+        <div class="service-card">
+            
+            <h5>Film/Dizi izlemek</h5>
+            <p>yeni şeyler izlemek</p>
+        </div>
+        <div class="service-card">
+            
+            <h5>Gezmek</h5>
+            <p>Görmediğim yerleri keşfetmek</p>
+        </div>
+    </section>
+
+    <!-- İletişim Bölümü -->
+    <section id="contact" class="contact-section">
+        <h2>İletişime Geçin</h2>
+        <form>
+            <input type="text" placeholder="Adınız" required>
+            <input type="email" placeholder="E-posta Adresiniz" required>
+            <textarea placeholder="Mesajınız" rows="4" required></textarea>
+            <div class="notifier">
+                <button><a href="#success" class="button">Gönder</a></button>
+                <div id="success" class="notification">
+                    Başarılı
+                    <a href="#" class="close-btn">&times;</a>
+                </div>
+            </div>
+
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>&copy; 2025 Taha'nın Sitesi. Tüm Hakları Saklıdır.</p>
+    </div>
+
+</body>
+</html>
