@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML renk geçmek</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 10;
+            padding: 10;
+            background: linear-gradient(135deg, purple, blue);
+            color: white;
+            text-align: center;
+        }
+        .con {
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 800px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+        }
+
+        .con p {
+            font-size: 1.2em;
+            line-height: 1.8;
+        }
+
+        .link a {
+            display: inline-block;
+            margin: 20px;
+            padding: 20px 30px;
+            color: cyan;
+            background: linear-gradient(90deg, purple, blue);
+            border-radius: 10px;
+            text-decoration: none;
+            font-size: 2.1em;
+            transition: background 0.3s;
+        }
+
+        .link a:hover {
+            background: linear-gradient(45deg, purple, blue);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        HTML Renk Geçiş
+    </header>
+
+    <div class="con">
+        <p>
+            Renk geçiş kullanımı yapmak
+        </p>
+
+        <p>
+            aşağıda olmak örnek
+        </p>
+
+        <div class="link">
+            <a href="https://www.github.com" target="_blank">Github</a>
+            <a href="https://www.youtube.com" target="_blank">YouTube</a>
+        </div>
+
+        <p>
+            çalışmak
+        </p>
+    </div>
+</body>
+</html>

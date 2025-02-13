@@ -1,0 +1,25 @@
+
+#b{
+    background:linear-gradient(to bottom,lightgreen,rgb(186, 186, 186));
+    border: 1px;
+    border-radius: 10px;
+}
+#c{
+    background:linear-gradient(to bottom,orange,rgb(141, 139, 139));
+    border: 1px;
+    border-radius: 10px;
+}
+#d{
+    background:linear-gradient(to bottom,bisque,rgb(222, 73, 73));
+    border: 1px;
+    border-radius: 10px;
+}
+label{
+color: darkslategrey;
+}
+p{
+color: darkslategrey;
+}
+h4{
+color: rgb(107, 79, 132);
+}

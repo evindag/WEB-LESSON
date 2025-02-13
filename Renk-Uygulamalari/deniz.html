@@ -1,0 +1,163 @@
+<!Doctype>
+<html lang="tr">
+<meta charset="UTF-8">
+<head>
+<title>Renk Gecis Uygulaması</title>
+<style>
+body{
+background-color:blueviolet;
+font-size:26px;
+font-weight:bold;
+}
+h2{
+text-align:center;
+color:darkgray;
+}
+.AnaKutu{
+transition:transform 0.3s ease , box-shadow 0.3 ease;
+justify-content:center;
+align-items:center;
+}
+
+
+.Kutu1 p{
+font-size:15px;
+color:purple;
+}
+.Kutu1 p:Hover{
+color:pink;
+}
+.Kutu2 p{
+font-size:15px;
+color:white;
+}
+.Kutu2 p:Hover{
+color:Black;
+}
+
+
+
+.Kutu1{
+border:none;
+border-radius:10px;
+padding:32px;
+margin:15px;
+background:linear-gradient(to top left,black,white);
+width:200px;
+}
+.Kutu1:Hover{
+width:500px;
+box-shadow:4px 8px 12px rgba(0,0,0,0.6);
+transform:translateY(-8px);
+}
+
+
+
+.Kutu2{
+border:0px;
+border-radius:10px;
+padding:32px;
+margin:15px;
+width:300px;
+background:linear-gradient(to top left,yellow,darkblue);
+}
+.Kutu2:Hover{
+width:600px;
+box-shadow:4px 8px 12px rgba(0,0,0,0.8);
+transform:translateY(-8px);
+}
+.Kutu2 button{
+border-radius:3px;
+text-align:center;
+border:none;
+background:linear-gradient(90deg,red,darkblue);
+padding-left:5px;
+padding-right:10px;
+}
+.Kutu2 button:Hover{
+background:linear-gradient(90deg,darkblue,red);
+padding-left:5px;
+padding-right:10px;
+cursor:pointer;
+}
+
+
+
+.Kutu1 button{
+text-align:center;
+border-radius:3px;
+border:none;
+background:linear-gradient(90deg,green,yellow);
+padding-left:5px;
+padding-right:10px;
+}
+.Kutu1 button:Hover{
+transform:translateY(-1px);
+background:linear-gradient(90deg,yellow,green);
+padding-left:5px;
+padding-right:10px;
+cursor:pointer;
+}
+.Kutu3{
+border:none;
+border-radius:10px;
+padding:32px;
+margin:15px;
+width:400px;
+background:linear-gradient(to top left,yellow,black);
+}
+.Kutu3:Hover{
+width:700px;
+box-shadow:4px 8px 12px rgba(0,0,0,0.8);
+transform:translateY(-8px);
+}
+.Kutu3 button{
+text-align:center;
+border-radius:3px;
+border:none;
+background:linear-gradient(90deg,skyblue,purple);
+padding-left:5px;
+padding-right:10px;
+}
+.Kutu3 button:Hover{
+transform:translateY(-1px);
+background:linear-gradient(90deg,blue,blueviolet);
+padding-left:5px;
+padding-right:10px;
+cursor:pointer;
+}
+.Kutu3 p:Hover{
+color:darkgreen;
+}
+footer{
+background-color:gray;
+text-align:center;
+padding:35px;
+border-radius:10px;
+font-size:20px;
+font-weight:bold;
+margin-bottom:-10px;
+margin-left:-10px;
+margin-right:-8px;
+margin-top:30px;
+}
+</style>
+</head>
+<body>
+<h2>Renk Gecis Uygulaması</h2>
+<div class="AnaKutu">
+<div class="Kutu1">
+<p>Hello World</p>
+<button>Tıkla</button>
+</div>
+<div class="Kutu2">
+<p>Merhaba Dünya</p>
+<button>Tıkla</button>
+</div>
+<div class="Kutu3">
+<p>Hello</p>
+<button>Tıkla</button>
+</div>
+<footer><p>Bu projeyi Deniz Arda Yaptı :)</p></footer>
+</body>
+</html>

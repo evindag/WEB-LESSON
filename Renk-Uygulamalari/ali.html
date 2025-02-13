@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Renkler</title>
+    <style>
+body {
+    font-family: 'Berlin Sans FB' , sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    text-align: center;
+}
+h1 {
+    margin-top: 20px;
+    font-size: 2em;
+    color: blueviolet;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 20px;
+}
+.card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    text-align: left;
+}
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+    </style>
+</head>
+<body>
+<header>
+    <h1>Renk Kombinasyonları</h1>
+    <div class="container">
+        
+        <div class="card" style="background: linear-gradient(to bottom,blueviolet,black);">
+            
+        </div>
+        
+        <div class="card" style="background: linear-gradient(to bottom,green,beige);">
+            
+        </div>
+        <div class="card" style="background: linear-gradient(to top,skyblue,purple);">
+            
+        </div>
+        <div class="card" style="background: linear-gradient(to bottom,red,yellow);">
+            
+        </div>
+        <div class="card" style="background: linear-gradient(to bottom,orange,rgb(228, 115, 115));">
+            
+        </div>
+        <div class="card" style="background: linear-gradient(to bottom,blueviolet,pink);">
+            
+        </div>
+        <div class="card" style="background: linear-gradient(to bottom,skyblue,white);">
+            
+        </div>
+        <div class="card" style="background: linear-gradient(to bottom,rgb(131, 238, 131),rgb(131, 131, 241));">
+            
+        </div>
+    </div>
+</header>
+</body>
+</html>

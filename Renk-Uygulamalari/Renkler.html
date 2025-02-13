@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML _blank Özelliği - Renkli Tasarım</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #6a11cb, #2575fc);
+            color: white;
+            text-align: center;
+        }
+
+        header {
+            padding: 30px;
+            background: linear-gradient(90deg, #ff6f61, #ff9966);
+            text-align: center;
+            font-size: 2.5em;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        .content {
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 800px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+        }
+
+        .content p {
+            font-size: 1.2em;
+            line-height: 1.8;
+        }
+
+        .links a {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 20px;
+            color: #fff;
+            background: linear-gradient(45deg, #2575fc, #ff6f61);
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 1.1em;
+            transition: background 0.3s;
+        }
+
+        .links a:hover {
+            background: linear-gradient(45deg, #ff6f61, #2575fc);
+        }
+
+        footer {
+            margin-top: 20px;
+            padding: 20px;
+            background: linear-gradient(90deg, #333, #555);
+            color: white;
+            text-align: center;
+            font-size: 0.9em;
+        }
+
+        footer a {
+            color: #ff6f61;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        HTML 'de <code>_blank</code> Ne işe yarar
+    </header>
+
+    <div class="content">
+        <p>
+            Merhaba! Bu sayfa, HTML'deki <code>target="_blank"</code> özelliğini öğrenmek ve nasıl kullanılacağını göstermek için hazırlandı. Bu özellik, bağlantıların yeni sekmede açılmasını sağlar. Yani, bir bağlantıya tıkladığınızda, mevcut sayfanızdan ayrılmadan başka bir sayfayı yeni bir sekmede görebilirsiniz.
+        </p>
+
+        <p>
+            Şimdi örnek bağlantılara göz atalım. Bu bağlantılara tıkladığınızda yeni sekmelerde açılacaklar. Dilerseniz, güvenlik amacıyla <code>rel="noopener noreferrer"</code> eklemeyi unutmayın! Bu, bağlantıyı tıklarken daha güvenli bir deneyim sağlar.
+        </p>
+
+        <div class="links">
+            <a href="https://www.instagram.com" target="_blank">İnstagram'a Git</a>
+            <a href="https://www.youtube.com" target="_blank">YouTube'a Git</a>
+            <a href="https://www.Github.com/Tahaunlu01" target="_blank">Github'a Git</a>
+        </div>
+
+        <p>
+            Gördüğünüz gibi, <code>target="_blank"</code> özelliği bağlantıları yeni bir sekmede açılacak şekilde ayarlamaktadır. Bu sayede kullanıcılarınız, sayfanızdan çıkmadan başka içeriklere göz atabilir. Tasarımda kullandığım renk geçişleri de sayfanın daha dinamik ve modern görünmesini sağlıyor.
+        </p>
+    </div>
+
+    <footer>
+        <p>Bu sayfa, HTML öğrenmek isteyenler için tasarlandı. Detaylar ve diğer bağlantılar için <a href="https://www.Github.com/Tahaunlu01" target="_blank">buraya tıklayabilirsiniz</a>.</p>
+    </footer>
+</body>
+</html>
