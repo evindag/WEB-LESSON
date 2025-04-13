@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sayının Durumunu Kontrol Et</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        #result {
+            margin-top: 20px;
+            font-size: 20px;
+            color: darkblue;
+        }
+        input[type="number"] {
+            padding: 10px;
+            font-size: 16px;
+            width: 200px;
+            margin-top: 10px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Sayının Durumunu Kontrol Et</h1>
+    <input type="number" id="numberInput" placeholder="Bir sayı girin" />
+    <button id="checkButton">Kontrol Et</button>
+    <div id="result"></div>
+
+    <script>
+        // Sayıyı kontrol eden fonksiyon
+        function checkNumber() {
+            // Kullanıcıdan alınan sayıyı al
+            var number = parseFloat(document.getElementById("numberInput").value);
+
+            // Sayının pozitif, negatif veya sıfır olup olduğunu kontrol et
+            if (number > 0) {
+                document.getElementById("result").innerText = "Girdiğiniz sayı pozitif.";
+                document.getElementById("result").style.color = "green"; // Pozitif için yeşil
+            } else if (number < 0) {
+                document.getElementById("result").innerText = "Girdiğiniz sayı negatif.";
+                document.getElementById("result").style.color = "red"; // Negatif için kırmızı
+            } else {
+                document.getElementById("result").innerText = "Girdiğiniz sayı sıfır.";
+                document.getElementById("result").style.color = "blue"; // Sıfır için mavi
+            }
+        }
+
+        // Butona tıklama olayını dinle
+        document.getElementById("checkButton").onclick = checkNumber;
+    </script>
+
+</body>
+</html>

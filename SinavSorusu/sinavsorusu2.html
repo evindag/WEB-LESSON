@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yazı Stili Değiştirme</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        #message {
+            margin-top: 20px;
+            font-size: 24px;
+            color: darkblue;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Yazı Stili Değiştirme</h1>
+    <button id="italicButton">İtalik Yap</button>
+    <button id="boldButton">Kalın Yap</button>
+    <div id="message">Bu yazının stilini değiştirin!</div>
+
+    <script>
+        // Yazıyı italik yapan fonksiyon
+        function makeItalic() {
+            document.getElementById("message").style.fontStyle = "italic";
+        }
+
+        // Yazıyı kalın yapan fonksiyon
+        function makeBold() {
+            document.getElementById("message").style.fontWeight = "bold";
+        }
+
+        // Butonlara tıklama olaylarını dinle
+        document.getElementById("italicButton").onclick = makeItalic;
+        document.getElementById("boldButton").onclick = makeBold;
+    </script>
+
+</body>
+</html>

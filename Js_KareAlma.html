@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <input type="text" placeholder="Sayı giriniz." value="0" onkeypress="kareAl(this)">
+        <p id="sonuc">0</p>
+    </form>
+
+    <script>
+        function kareAl(a){
+ sayi=a.value;
+ sonuc=sayi*sayi;
+ document.getElementById("sonuc").innerHTML=sonuc;
+}
+    </script>
+</body>
+</html>

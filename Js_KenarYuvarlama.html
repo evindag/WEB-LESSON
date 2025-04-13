@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="cerceve"> </div>
+<form>
+ <input type="radio" name="secim" onClick="kenarYuvarla('0px')" value="0">
+ <label for="male">0 piksel</label><br>
+ <input type="radio" name="secim" onClick="kenarYuvarla('10px')" value="10">
+ <label for="male">10 piksel</label><br>
+ <input type="radio" name="secim" onClick="kenarYuvarla('25px')" value="25">
+ <label for="male">25 piksel</label><br>
+ <input type="radio" name="secim" onClick="kenarYuvarla('50px')" value="50">
+ <label for="male">50 piksel</label><br>
+</form>
+<style>
+     body{background-color: gray; color:white; font-weight: bold;}
+     #cerceve{background-color: orange; width: 100px; height: 100px;}
+</style>
+<script>
+    function kenarYuvarla(derece){
+ document.getElementById("cerceve").style.borderRadius=derece;
+}
+</script>
+</body>
+</html>

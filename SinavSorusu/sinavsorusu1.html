@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basit JavaScript Projesi</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        #message {
+            margin-top: 20px;
+            font-size: 20px;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Hoş Geldiniz!</h1>
+    <button id="showMessageButton">Mesajı Göster</button>
+    <div id="message"></div>
+
+    <script>
+        // Mesajı gösteren fonksiyon
+        function showMessage() {
+            // Mesajı ayarla
+            document.getElementById("message").innerText = "Merhaba, dünya!";
+        }
+
+        // Butona tıklama olayını dinle
+        document.getElementById("showMessageButton").onclick = showMessage;
+    </script>
+
+</body>
+</html>

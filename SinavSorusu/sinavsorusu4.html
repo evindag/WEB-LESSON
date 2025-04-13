@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meyve Mevsimi Belirleme</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        #result {
+            margin-top: 20px;
+            font-size: 20px;
+            color: darkblue;
+        }
+        input[type="text"] {
+            padding: 10px;
+            font-size: 16px;
+            width: 200px;
+            margin-top: 10px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Meyve Mevsimi Belirleme</h1>
+    <input type="text" id="fruitInput" placeholder="Bir meyve ismi girin" />
+    <button id="checkButton">Mevsimi Belirle</button>
+    <div id="result"></div>
+
+    <script>
+        // Meyve mevsimini kontrol eden fonksiyon
+        function checkSeason() {
+            // Kullanıcıdan alınan meyve ismini al
+            var fruit = document.getElementById("fruitInput").value.toLowerCase();
+            var season;
+
+            // Meyve ismine göre mevsimi belirle
+            switch (fruit) {
+                case "portakal":
+                case "mandalina":
+                    season =" bu meyve kış meyvesidir.";
+                    break;
+                case "çilek":
+                case "şeftali":
+                    season = " bu meyve yaz meyvesidir.";
+                    break;
+                case "armut":
+                case "nar":
+                    season =  " bu meyve sonbahar meyvesidir.";
+                    break;
+                case "muz":
+                    season =  " bu meyve tropikal meyvedir.";
+                    break;
+                default:
+                    season = "Bu meyve hakkında bilgi bulunmamaktadır. Lütfen elma, armut, nar, çilek, şeftali, kayısı, portakal, mandalina veya muz girin.";
+            }
+
+            // Sonucu göster
+            document.getElementById("result").innerText = season;
+        }
+
+        // Butona tıklama olayını dinle
+        document.getElementById("checkButton").onclick = checkSeason;
+    </script>
+
+</body>
+</html>

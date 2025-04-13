@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayların Mevsimleri</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        #result {
+            margin-top: 20px;
+            font-size: 20px;
+            color: darkblue;
+        }
+        input[type="text"] {
+            padding: 10px;
+            font-size: 16px;
+            width: 200px;
+            margin-top: 10px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Ayların Mevsimlerini Belirle</h1>
+    <input type="text" id="monthInput" placeholder="Bir ay girin (Ocak, Şubat, vb.)" />
+    <button id="checkButton">Mevsimi Belirle</button>
+    <div id="result"></div>
+
+    <script>
+        // Ayın mevsimini kontrol eden fonksiyon
+        function checkSeason() {
+            // Kullanıcıdan alınan ay ismini al
+            var month = document.getElementById("monthInput").value.toLowerCase();
+            var season;
+
+            // Ay ismine göre mevsimi belirle
+            switch (month) {
+                case "aralık":
+                case "ocak":
+                case "şubat":
+                    season = "Kış";
+                    break;
+                case "mart":
+                case "nisan":
+                case "mayıs":
+                    season = "Bahar";
+                    break;
+                case "haziran":
+                case "temmuz":
+                case "ağustos":
+                    season = "Yaz";
+                    break;
+                case "eylül":
+                case "ekim":
+                case "kasım":
+                    season = "Sonbahar";
+                    break;
+                default:
+                    season = "Bu ay hakkında bilgi bulunmamaktadır. Lütfen geçerli bir ay ismi girin.";
+            }
+
+            // Sonucu göster
+            document.getElementById("result").innerText = season;
+        }
+
+        // Butona tıklama olayını dinle
+        document.getElementById("checkButton").onclick = checkSeason;
+    </script>
+
+</body>
+</html>

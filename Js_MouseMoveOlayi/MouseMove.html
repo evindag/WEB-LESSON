@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="galeri">
+        <img src="resim1.png" id="resim1">
+        <img src="resim2.png" id="resim2" >
+        <img src="resim3.png" id="resim3">
+       </div>
+       <div>
+        <input type="button" onmousemove="resmiGoster1()" value="Resim 1">
+        <input type="button" onmousemove="resmiGoster2()" value="Resim 2">
+        <input type="button" onmousemove="resmiGoster3()" value="Resim 3">
+    </div>
+    <style>
+        body{background-color: orange;}
+        #galeri{ position: relative; width:300px; height: 200px; margin-bottom:10px;}
+        img{ width:300px; height: 200px; position: absolute; left:0px; right: 0px; }
+    </style>
+    <script>
+        function resmiGoster1(){
+ document.getElementById("resim1").style.zIndex=2;
+ document.getElementById("resim2").style.zIndex=1;
+ document.getElementById("resim3").style.zIndex=1;
+}
+function resmiGoster2(){
+ document.getElementById("resim1").style.zIndex=1;
+ document.getElementById("resim2").style.zIndex=2;
+ document.getElementById("resim3").style.zIndex=1;
+}
+function resmiGoster3(){
+ document.getElementById("resim1").style.zIndex=1;
+ document.getElementById("resim2").style.zIndex=1;
+ document.getElementById("resim3").style.zIndex=2;
+}
+    </script>
+</body>
+</html>
