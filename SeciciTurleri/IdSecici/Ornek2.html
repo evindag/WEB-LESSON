@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İki Kişinin Form Verilerini Gösterme</title>
+</head>
+<body>
+    <form id="form1">
+        <h2>1. Kişi</h2>
+        <input type="text" id="ad1" placeholder="Ad">
+        <input type="text" id="soyad1" placeholder="Soyad">
+    </form>
+    <form id="form2">
+        <h2>2. Kişi</h2>
+        <input type="text" id="ad2" placeholder="Ad">
+        <input type="text" id="soyad2" placeholder="Soyad">
+    </form>
+    <button type="button" onclick="formVerileriniGoster()">Gönder</button>
+    <div id="sonuc"></div>
+    <script>
+        function formVerileriniGoster() {
+            const ad1 = document.getElementById("ad1").value;
+            const soyad1 = document.getElementById("soyad1").value;
+            const ad2 = document.getElementById("ad2").value;
+            const soyad2 = document.getElementById("soyad2").value;
+            document.getElementById("sonuc").textContent = "1. Kişi - Ad: " + ad1 + ", Soyad: " + soyad1 + " | 2. Kişi - Ad: " + ad2 + ", Soyad: " + soyad2;
+        }
+    </script>
+</body>
+</html>

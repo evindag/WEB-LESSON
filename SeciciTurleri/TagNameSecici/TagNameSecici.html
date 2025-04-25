@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tıklanan Liste Öğesini Vurgulama</title>
+    <style>
+        li {
+            cursor: pointer;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <ul id="liste">
+        <li onclick="ogeyiVurgula(this)">Öğe 1</li>
+        <li onclick="ogeyiVurgula(this)">Öğe 2</li>
+        <li onclick="ogeyiVurgula(this)">Öğe 3</li>
+        <li onclick="ogeyiVurgula(this)">Öğe 4</li>
+    </ul>
+
+    <h1 id="baslik"></h1>
+
+    <script>
+        function ogeyiVurgula(element) {
+            // Başlığa tıklanan öğenin içeriğini yazdır
+            document.getElementById("baslik").textContent = element.textContent;
+
+            // Tüm liste öğelerinin arka plan rengini temizle
+            const listeOgeleri = document.getElementsByTagName("li");
+            for (let i = 0; i < listeOgeleri.length; i++) {
+                listeOgeleri[i].style.backgroundColor = "";
+            }
+
+            // Tıklanan öğenin arka plan rengini değiştir
+            element.style.backgroundColor = "lightblue";
+        }
+    </script>
+</body>
+</html>

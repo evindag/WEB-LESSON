@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radyo Düğmesi Seçimi Gösterimi</title>
+</head>
+<body>
+    <form id="secimFormu">
+        <input type="radio" name="secenek" value="secenek1"> Seçenek 1<br>
+        <input type="radio" name="secenek" value="secenek2"> Seçenek 2<br>
+        <input type="radio" name="secenek" value="secenek3"> Seçenek 3<br>
+        <button type="button" onclick="secimiGoster()">Seçimi Göster</button>
+    </form>
+    <p id="secimSonucu"></p>
+    <script>
+        function secimiGoster() {
+            const secenekler = document.getElementsByName("secenek");
+            let secilenDeger = "";
+            for (let i = 0; i < secenekler.length; i++) {
+                if (secenekler[i].checked) {
+                    secilenDeger = secenekler[i].value;
+                    break;
+                }
+            }
+            document.getElementById("secimSonucu").textContent = "Seçilen Seçenek: " + secilenDeger;
+        }
+    </script>
+</body>
+</html>

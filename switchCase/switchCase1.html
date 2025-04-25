@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Switch Case</title>
+</head>
+<body>
+    <script>
+function hangiGun(){
+ var tarih = new Date();
+ var gun = tarih.getDay();
+ switch(gun) {
+ case 0:
+ alert("Pazar");
+ break;
+ case 1:
+ alert("Pazartesi");
+ break;
+ case 2:
+ alert("Salı");
+ break;
+ case 3:
+ alert("Çarşamba");
+ break;
+ case 4:
+ alert("Perşembe");
+ break;
+ case 5:
+ alert("Cuma");
+ break;
+ case 6:
+ alert("Cumartesi");
+ }
+}
+
+    </script>
+    <input type="button" onclick="hangiGun()" value="Kontrol Et">
+
+</body>
+</html>

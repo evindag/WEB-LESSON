@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İf Else Ornek</title>
+</head>
+<body>
+    <script>
+function kontrol(){
+ var netSayisi=document.getElementById("netler").value;
+ if(netSayisi<0){
+ document.getElementById("ekran").innerText="Geçersiz sayı!";
+ }
+ else if(netSayisi<10){
+ document.getElementById("ekran").innerText="Net sayınız ortalamanın altında";
+ }
+ else if(netSayisi<25){
+ document.getElementById("ekran").innerText="Net sayınız ortalamaya yakın";
+ }
+ else if(netSayisi<=41){
+ document.getElementById("ekran").innerText="Net sayınız ortalamanın üstünde";
+ } 
+ else{
+ document.getElementById("ekran").innerText="Geçersiz sayı!";
+ } 
+}
+
+    </script>
+
+
+    <input type="text" id="netler">
+<input type="button" value="Kontrol Et" onclick="kontrol()">
+<p id="ekran">Test sonucu burada gösterilecek.</p>
+</body>
+</html>
