@@ -1,0 +1,100 @@
+<!DOCTYPE html><html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Kardan Adamın Burnu</title>
+  <style>
+    body { font-family: sans-serif; text-align: center; }
+    table { border-collapse: collapse; margin: 20px auto; }
+    td {
+      width: 60px;
+      height: 60px;
+      border: 1px solid #aaa;
+      font-size: 30px;
+      text-align: center;
+    }
+    .controls button {
+      font-size: 24px;
+      margin: 5px;
+      padding: 10px;
+    }
+    .controls {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .arrow-row {
+      display: flex;
+      justify-content: center;
+    }
+  </style>
+</head>
+<body>
+  <h2>Kardan Adam Burnunu Bulabilecek mi?</h2>
+  <table id="grid"></table>
+  <div class="controls">
+    <button onclick="move('up')">⬆️</button>
+    <div class="arrow-row">
+      <button onclick="move('left')">⬅️</button>
+      <button onclick="move('down')">⬇️</button>
+      <button onclick="move('right')">➡️</button>
+    </div>
+    <button onclick="resetGame()">🔄 Yeni Oyun</button>
+  </div>  <script>
+    const grid = document.getElementById("grid");
+    const rows = 4, cols = 4;
+    let player = { row: 0, col: 0 };
+    let carrot = { row: 3, col: 3 };
+
+    function getRandomPosition(excludeRow, excludeCol) {
+      let row, col;
+      do {
+        row = Math.floor(Math.random() * rows);
+        col = Math.floor(Math.random() * cols);
+      } while (row === excludeRow && col === excludeCol);
+      return { row, col };
+    }
+
+    function createGrid() {
+      grid.innerHTML = "";
+      for (let r = 0; r < rows; r++) {
+        const row = document.createElement("tr");
+        for (let c = 0; c < cols; c++) {
+          const cell = document.createElement("td");
+          if (r === player.row && c === player.col) {
+            cell.textContent = "⛄";
+          } else if (r === carrot.row && c === carrot.col) {
+            cell.textContent = "🥕";
+          }
+          row.appendChild(cell);
+        }
+        grid.appendChild(row);
+      }
+    }
+
+    function move(direction) {
+      if (direction === 'up' && player.row > 0) player.row--;
+      if (direction === 'down' && player.row < rows - 1) player.row++;
+      if (direction === 'left' && player.col > 0) player.col--;
+      if (direction === 'right' && player.col < cols - 1) player.col++;
+      createGrid();
+      checkWin();
+    }
+
+    function checkWin() {
+      if (player.row === carrot.row && player.col === carrot.col) {
+        setTimeout(() => {
+          alert("Tebrikler! Burnu buldun!");
+          resetGame();
+        }, 100);
+      }
+    }
+
+    function resetGame() {
+      player = getRandomPosition(-1, -1);
+      carrot = getRandomPosition(player.row, player.col);
+      createGrid();
+    }
+
+    resetGame();
+  </script></body>
+</html>
